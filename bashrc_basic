@@ -23,8 +23,7 @@ alias hg='history|grep'
 alias spec='spec --color'
 
 #Filesystem
-alias home='cd /edata/eng/proberts/'
-alias scratch='cd /scratch/proberts'
+
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -35,9 +34,6 @@ alias bashedit='gvim ~/.bashrc'
 
 alias exit='history -a && exit'
 alias untar='tar -zxvf'
-
-#Personal Stuff
-alias sshlf='ssh latentflip@latentflip.com'
 
 #Simulation  Stuff
 alias errg='grep -i error *'
